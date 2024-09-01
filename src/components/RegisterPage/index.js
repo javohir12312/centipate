@@ -77,7 +77,7 @@ const Register = () => {
           <form className="form" onSubmit={handleSubmit}>
             <div className="inputBox">
               <input 
-                type="text" 
+                type="email" 
                 value={username} 
                 onChange={(e) => setUsername(e.target.value)} 
                 required 

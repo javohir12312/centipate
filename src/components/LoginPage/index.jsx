@@ -15,11 +15,12 @@ const Login = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:5000/api/login', {
+      const response = await fetch('http://192.168.0.59:5000/api/login', {
         method: 'POST',
         headers: {
+          "access-control-allow-origin" : "*",
           'Content-Type': 'application/json',
-        },
+        },  
         body: JSON.stringify({ email, password }),
       });
 
