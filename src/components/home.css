@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'SDGlitchDemo'; /* Give it a unique name */
+    src: url('../../public/sdglitchdemo/SDGlitch_Demo.ttf') format('truetype'); /* Use absolute path from the public directory */
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.play_button{
+    color: black;
+    width: 150px;
+    height: 50px;
+    background-color: #36BA98;
+    font-family: SDGlitchDemo;
+    border: none;
+    border-radius: 7px;
+    font-size:30px;
+}
+
+.play_button:hover{
+    background-color: chartreuse;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.list_ul{
+    font-family: SDGlitchDemo;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.list_ul:hover{
+    color: red;
+    transition: 0.4s ease-in-out;
+}
